@@ -12,6 +12,8 @@ export interface Game {
   background_image: string;
   parent_platforms: { platform: Platform }[];
   metacritic: number;
+  rating_top: number; //top 5 whole number
+  // ration: number;
 }
 
 const useGames = (gameQuery: GameQuery) =>
